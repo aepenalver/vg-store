@@ -22,7 +22,7 @@ body {
         "main"
         "footer";
 }
-/*! Navbar  */
+
 nav,
 footer,
 .product button {
@@ -35,7 +35,7 @@ footer,
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 0.5rem;
 }
 
 .logo {
@@ -62,8 +62,6 @@ i:hover {
     color: brown;
 }
 
-/* ! Filter */
-
 .filter {
     grid-area: filter;
     background-color: lightgray;
@@ -84,13 +82,11 @@ p {
     margin: 0;
 }
 
-/* ! Main  */
 .main {
     grid-area: main;
     display: flex;
     flex-direction: column;
     align-items: center;
-
     height: 100%;
     overflow: hidden;
 }
@@ -147,8 +143,6 @@ img {
     border: 1px solid rgb(11, 65, 147);
 }
 
-/* ! Paginación */
-
 .pagination {
     margin: 1rem;
 }
@@ -175,7 +169,6 @@ img {
     border-radius: 0 10px 10px 0;
 }
 
-/* ! Footer */
 .footer {
     grid-area: footer;
     margin-top: 0.5rem;
@@ -186,7 +179,7 @@ img {
 }
 
 .footer i {
-    margin: 0 5px;
+    margin: 0 0.5rem;
 }
 
 .footer a {
@@ -194,10 +187,6 @@ img {
 }
 
 @media (width < 576px) {
-    nav p {
-        display: none;
-    }
-
     .menu-item {
         display: none;
     }
@@ -307,7 +296,7 @@ img {
     }
 
     .footer i {
-        font-size: 20px;
-        margin: 0.5rem;
+        font-size: 15px;
+        margin: 0.2rem;
     }
 }
